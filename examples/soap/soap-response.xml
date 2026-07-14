@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope
+ xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+ <soap:Body>
+
+   <GetCustomerResponse>
+
+      <Customer>
+
+         <Id>1001</Id>
+
+         <Name>John Smith</Name>
+
+         <Status>Active</Status>
+
+      </Customer>
+
+   </GetCustomerResponse>
+
+ </soap:Body>
+
+</soap:Envelope>
