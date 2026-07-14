@@ -1,7 +1,6 @@
 import requests
 
-
-API_URL = "https://jsonplaceholder.typicode.com/users"
+from config import API_URL, TIMEOUT
 
 
 def call_api():
@@ -11,7 +10,7 @@ def call_api():
     """
 
     try:
-        response = requests.get(API_URL, timeout=10)
+        response = requests.get(API_URL, timeout=TIMEOUT)
 
         response.raise_for_status()
 
