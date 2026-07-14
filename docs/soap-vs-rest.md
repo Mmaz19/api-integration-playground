@@ -105,6 +105,7 @@ SOAPService-->>Client: SOAP XML Response
 ```
 
 ## REST to SOAP Integration Pattern
+
 Many enterprise scenarios require a translation layer between modern applications and legacy platforms.
 
 ```mermaid
@@ -119,9 +120,10 @@ B --> C{Transformation}
 C -->|JSON to XML| D[SOAP Service]
 
 D --> E[Legacy Enterprise System]
+```
+## Integration Layer Responsibilities
 
-Integration Layer Responsibilities
-
+```mermaid
 flowchart TD
 
 A[Integration Layer]
