@@ -168,9 +168,11 @@ A --> C[Contract-driven Services]
 A --> D[B2B Integrations]
 
 A --> E[Regulated Industries]
+```
 
-Consultant perspective
+## Consultant perspective
 
+```mermaid
 flowchart LR
 
 A[Business Requirement]
