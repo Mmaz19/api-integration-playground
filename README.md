@@ -1,4 +1,5 @@
 # API Integration Playground
+> Practical examples of enterprise integration patterns, authentication and troubleshooting.
 
 ## Overview
 
@@ -55,20 +56,19 @@ Examples of:
 ## Architecture Overview
 
 Example integration flow:
-**Client Application
-** |
-** |
-** v
-** REST API
-** |
-** |
-** v
-** Business System
+```mermaid
+flowchart LR
+
+A[Client Application]
+--> B[REST API]
+
+B --> C[Business System]
+```
 
 
 ---
 
-## Technologies
+## Technologies Used
 
 - REST APIs
 - JSON
@@ -80,23 +80,35 @@ Example integration flow:
 
 ---
 
-## Key Learnings
+## Skills Demonstrated
 
 This repository demonstrates:
 
-✅ Understanding of API communication patterns  
-✅ Ability to analyze integration scenarios  
-✅ Knowledge of authentication mechanisms  
-✅ Approach to troubleshooting technical issues  
-✅ Documentation skills for technical audiences  
+- API integration
+- REST communication
+- Authentication concepts
+- Error handling
+- Technical troubleshooting
+- Enterprise documentation
+- Solution-oriented thinking
 
 ---
 
-## Future Improvements
+## Roadmap
 
-Planned extensions:
+- [x] REST API examples
+- [x] Authentication concepts
+- [x] Error handling
+- [x] Architecture documentation
+- [x] Mermaid diagrams
+- [x] SOAP integration concepts
+- [x] Event-driven architecture
+- [ ] Real API integration
+- [ ] Automated API testing
+- [ ] CI/CD pipeline
 
-- SOAP integration examples
-- API gateway scenarios
-- Message-based integration examples
-- Automated API testing
+## Philosophy
+
+Successful integrations are not only about writing code.
+
+They require understanding business requirements, designing reliable communication patterns, documenting decisions, and troubleshooting issues effectively.
